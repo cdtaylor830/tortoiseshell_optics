@@ -15,7 +15,7 @@ body {
 header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
   background-size: cover;
-  height: 31rem;
+  height: 30rem;
   padding-top: 1rem;
 }
 .navbar {
@@ -40,21 +40,22 @@ nav a {
   padding: 2rem;
   color: white;
 }
-.headline-box .container{
+
+.headline-box {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 .headline {
   padding: 1.5rem 5rem;
-  font-weight: bold;
-  font-size: 2rem;
   line-height: 1.2;
   background-color: white;
   display: inline-block;
-  position: relative;
-  top: 10rem;
-  left: 20rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /* Main Section */
@@ -135,11 +136,12 @@ footer img {
   }
   .headline {
     padding: .75rem 4rem;
-    font-size: 1.33rem;
-    top: 5rem;
-    left: 30rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
   }
-  .information {
-    padding: 2rem;
+  h1 {
+    font-size: 1.33rem;
+  }
+  .information {}
   }
 }
